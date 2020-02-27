@@ -1,0 +1,13 @@
+# Linked Inventory's Config
+
+# Delay Settings
+onDropDelay: 0
+onPickDelay: 0
+onPlaceDelay: 0
+onUseDelay: 0
+onItemDamageDelay: 0
+onInteractDelay: 0
+onClickInventoryDelay: 0
+onDragInventoryDelay: 0
+onExchangeHandDelay: 0
+onDeathDelay: 0

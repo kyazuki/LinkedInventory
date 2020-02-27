@@ -1,0 +1,28 @@
+main: com.github.kyazuki.linkedinventory.LinkedInventory
+name: Linked_Inventory
+version: 1.15.2-0.1.0
+description: Everyone use same inventory!
+api-version: 1.15
+load: STARTUP
+author: kyazuki
+website: https://github.com/kyazuki/LinkedInventory
+commands:
+  linkedinventory:
+    description: A Linked Inventory provided command.
+    usage: /<command> < toggle | mode-toggle | reload >
+    aliases: [li]
+permissions:
+  linkedinventory.toggle:
+    description: Allow the use of the '/linkedinventory toggle' subcommand
+    default: op
+  linkedinventory.mode_toggle:
+    description: Allow the use of the '/linkedinventory mode-toggle' subcommand
+    default: op
+  linkedinventory.reload:
+    description: Allow the use of the '/linkedinventory reload' subcommand
+    default: op
+  linkedinventory.*:
+    children:
+      linkedinventory.toggle: true
+      linkedinventory.mode_toggle: true
+      linkedinventory.reload: true

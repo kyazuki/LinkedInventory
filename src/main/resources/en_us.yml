@@ -1,0 +1,18 @@
+# Linked Inventory's Locale
+# en_us
+
+# Chat Message
+TurnOnMessage: "Inventory is linked!"
+TurnOffMessage: "Inventory is unlinked!"
+ModeEveryoneMessage: "Set to everyone mode!"
+ModeTeamMessasge: "Set to team mode!"
+ReloadMessage: "Link Inventory Config/Lang reloaded!"
+
+# Error Message
+NotPlayerError: "This command can be executed only by player."
+NoPermError: "You don't have the permission!"
+AlreadySharingError: "Inventory is already linked!"
+NotOnlineError: "Player is not online."
+NotMatchPlayerError: "Player is not found."
+
+PleaseReportError: "Author forgot to translate. Please report!"

@@ -1,0 +1,18 @@
+# Linked Inventory's Locale
+# ja_jp
+
+# Chat Message
+TurnOnMessage: "インベントリがリンクされました！"
+TurnOffMessage: "インベントリのリンクが解除されました！"
+ModeEveryoneMessage: "リンク対象が全員に変更されました！"
+ModeTeamMessasge: "リンク対象がチームごとに変更されました！"
+ReloadMessage: "コンフィグ、言語ファイルを再読み込みました！"
+
+# Error Message
+NotPlayerError: "このコマンドはプレイヤーからのみ実行できます。"
+NoPermError: "このコマンドを実行する権限がありません！"
+AlreadySharingError: "インベントリは既にリンクされています！"
+NotOnlineError: "プレイヤーがオフラインです。"
+NotMatchPlayerError: "プレイヤーが見つかりません。"
+
+PleaseReportError: "製作者が翻訳を忘れています。報告をお願いします！"
